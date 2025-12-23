@@ -212,4 +212,3 @@ data/*
 !data/processed/.gitkeep
 models/*
 !models/.gitkeep
-./TraducciónAutomática.zip
