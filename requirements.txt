@@ -1,0 +1,8 @@
+dotenv==0.9.9
+ipykernel==7.1.0
+maikol-utils==0.8.0
+matplotlib==3.10.7
+nbconvert==7.16.6
+pip-chill==1.0.3
+plotly==6.5.0
+uv==0.9.8
