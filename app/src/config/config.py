@@ -32,7 +32,7 @@ class Configuration:
 
     trans_code: str = "pt_en"
     model_name: str = ""
-    fine_tune_model_name: str = "finetuned-es-to-eo"
+    fine_tune_model_name: str = "finetuned-pt-to-en"
     src_name: str = "Portuguese"
     tgt_name: str = "English"
     src_abr: str = "pt"
@@ -48,6 +48,6 @@ class Configuration:
     data_fraction: float = 1.0  # Use full data by default
 
     def __post_init__(self):
-        ...
+        
 
     
