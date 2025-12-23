@@ -208,9 +208,8 @@ __marimo__/
 
 
 .vscode
-data/raw/*
-!data/raw/.gitkeep
-data/processed/*
+data/*
 !data/processed/.gitkeep
 models/*
 !models/.gitkeep
+./TraducciónAutomática.zip
