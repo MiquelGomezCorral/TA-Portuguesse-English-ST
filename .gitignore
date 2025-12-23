@@ -212,3 +212,4 @@ data/*
 !data/processed/.gitkeep
 models/*
 !models/.gitkeep
+results/*
