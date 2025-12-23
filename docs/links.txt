@@ -1,0 +1,31 @@
+Language   Setup    Train  Dev    Test  Size (Gb)   Download
+---------------------------------------------------------------------------------------------------------------------------------
+Arabic     ar_en     2283   1758  1695   3.24     https://datacollective.mozillafoundation.org/datasets/cmj8u3os6000tnxxb169x1zdc
+Catalan    ca_en    95854  12730 12730  77.46     https://datacollective.mozillafoundation.org/datasets/cmj8u3oxm004dnxxb1ye0bcy9
+Chinese    zh-CN_en  7085   4843  4898  21.26     https://datacollective.mozillafoundation.org/datasets/cmj8u3q2n00vhnxxbzrjcugwc
+Estonian   et_en     1782   1576  1571   1.45     https://datacollective.mozillafoundation.org/datasets/cmj8u3p2i007lnxxbhnvfmx0m
+Indonesian id_en     1243    792   844   1.39     https://datacollective.mozillafoundation.org/datasets/cmj8u3p9500c1nxxbpsdts8eq
+Latvian    lv_en     2337   1125  1629   5.76     https://datacollective.mozillafoundation.org/datasets/cmj8u3pec00flnxxbntvfb4as
+Portuguese pt_en     9158   3318  4023   4.79     https://datacollective.mozillafoundation.org/datasets/cmj8u3pnh00lpnxxb4djcexb1
+Russian    ru_en    12112   6110  6300   6.51     https://datacollective.mozillafoundation.org/datasets/cmj8u3prj00o9nxxbg5pbn88l
+Swedish    sv-SE_en  2160   1349  1595   1.19     https://datacollective.mozillafoundation.org/datasets/cmj8u3pud00q9nxxbcmq6uz24
+Tamil      ta_en     1358    384   786   8.56     https://datacollective.mozillafoundation.org/datasets/cmj8u3pv200qpnxxbgpfrn7la
+Welsh      cy_en     1241    690   690   3.87     https://datacollective.mozillafoundation.org/datasets/cmj8u3oz9005dnxxbiuyru29h
+---------------------------------------------------------------------------------------------------------------------------------
+
+WER, BLEU and COMET (source-english) baselines (using Whisper base model and the first 100 sentences of the test set)
+
+               WER (timexsentence)      BLEU / COMET (txs)
+---------------------------------------------------------
+Arabic         78.80 (0.39)            1.0 / 43.42 (0.42)
+Catalan        53.57 (0.26)            6.2 / 46.58 (0.45) 
+Chinese       115.15 (0.23)            1.0 / 39.06 (0.76)
+Estonian       91.09 (0.42)            0.3 / 40.38 (0.71)
+Indonesian     41.17 (0.18)            2.8 / 45.75 (0.38)
+Latvian        89.66 (0.24)            0.2 / 42.54 (0.38)	
+Portuguese     33.33 (0.18)           13.8 / 57.27 (0.30)
+Russian        52.42 (0.25)            8.1 / 51.59 (0.48)
+Swedish        41.18 (0.18)           14.2 / 57.46 (0.29)
+Tamil          44.81 (0.21)            0.3 / 42.25 (0.48)
+Welsh         123.85 (0.65)            0.3 / 41.57 (0.45)
+---------------------------------------------------------
