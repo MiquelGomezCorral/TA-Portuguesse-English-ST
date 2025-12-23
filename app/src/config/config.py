@@ -48,6 +48,6 @@ class Configuration:
     data_fraction: float = 1.0  # Use full data by default
 
     def __post_init__(self):
-        
+        ...
 
     
