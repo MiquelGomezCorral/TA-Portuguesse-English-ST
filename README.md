@@ -58,6 +58,6 @@ This [paper](https://github.com/MiquelGomezCorral/TA-Spanish-Esperanto-Translato
 
 # TO-DOs
 
-- Extra 1: Use different decoding settings for whisper at transcript
-- Extra 2: Use different decoding settings for whisper at translate
+- Extra 1: Use different decoding settings for whisper at translate
+- Extra 2: Use different decoding settings for whisper at transcript trasnlation cascade
 - Extra 3: Use different translation model for cascade & Use different finetuning strategies and parameters
