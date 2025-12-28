@@ -5,7 +5,7 @@ everywhere and considered configuration.
 """
 import os
 from dataclasses import dataclass
-from maikol_utils.file_utils import make_dirs
+from typing import Literal
 
 @dataclass
 class Configuration:
@@ -27,7 +27,6 @@ class Configuration:
 
     # =========================== PARAMETERS ===========================
     seed: int = 42
-    val_split: float = 0.15
     test_split: float = 0.15
 
     trans_code: str = "pt_en"
@@ -43,9 +42,11 @@ class Configuration:
     num_shots: int = 5  # For prompting
 
     max_tok_length: int = 16
+    test_batch_size: int = 32
     batch_size: int = 96
     max_epoch: int = 5
-    data_fraction: float = 1.0  # Use full data by default
+    input_col: Literal['refrence', 'hypothesis'] = 'hypothesis'
+    normalize: bool = True
 
     def __post_init__(self):
         ...
