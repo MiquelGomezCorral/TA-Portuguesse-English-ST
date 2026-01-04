@@ -46,6 +46,7 @@ class Configuration:
     batch_size: int = 96
     max_epoch: int = 5
     input_col: Literal['refrence', 'hypothesis'] = 'hypothesis'
+    eval_input_col: str = "hypothesis"
     normalize: bool = True
 
     def __post_init__(self):
