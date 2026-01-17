@@ -28,6 +28,7 @@ class Configuration:
     # =========================== PARAMETERS ===========================
     seed: int = 42
     test_split: float = 0.15
+    training_proportion: float = 1.0 
 
     trans_code: str = "pt_en"
     model_name: str = ""
@@ -45,7 +46,7 @@ class Configuration:
     test_batch_size: int = 32
     batch_size: int = 96
     max_epoch: int = 5
-    input_col: Literal['refrence', 'hypothesis'] = 'hypothesis'
+    input_col: Literal['reference', 'hypothesis'] = 'hypothesis'
     eval_input_col: str = "hypothesis"
     normalize: bool = True
 
