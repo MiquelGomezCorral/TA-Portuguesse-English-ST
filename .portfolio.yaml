@@ -1,0 +1,17 @@
+title:
+  en: Portuguese-English Speech Translation (Whisper + NLLB + mT5)
+  es: Traducción de Voz Portugués-Inglés (Whisper + NLLB + mT5)
+finished: finished
+descriptionShort:
+  en: Speech translation project exploring cascade (ASR → MT) and end-to-end approaches for Portuguese→English. Uses Whisper for transcription, NLLB and mT5 for translation. Trained on CoVoST 2 and EuroparlST datasets. Includes a research paper.
+  es: Proyecto de traducción de voz explorando enfoques cascade (ASR → MT) y end-to-end para Portugués→Inglés. Usa Whisper para transcripción, NLLB y mT5 para traducción. Entrenado sobre CoVoST 2 y EuroparlST. Incluye paper de investigación.
+descriptionLong:
+  en: |
+    Master's course project on speech translation between Portuguese and English. Implements and compares two paradigms: (1) Cascade approach — Whisper for automatic speech recognition followed by neural machine translation (NLLB, mT5), (2) End-to-end speech translation with fine-tuning. Explores different decoding strategies (beam search, temperature, nucleus sampling), translation models (NLLB-200, mT5-large), and fine-tuning configurations. Datasets: CoVoST 2 and EuroparlST. The full methodology and results are documented in a companion research paper. Modular codebase with editable pip install and Jupyter notebooks for experimentation.
+  es: |
+    Proyecto del máster sobre traducción de voz entre portugués e inglés. Implementa y compara dos paradigmas: (1) Enfoque cascade — Whisper para reconocimiento de voz seguido de traducción automática neuronal (NLLB, mT5), (2) Traducción de voz end-to-end con fine-tuning. Explora diferentes estrategias de decodificación (beam search, temperature, nucleus sampling), modelos de traducción (NLLB-200, mT5-large), y configuraciones de fine-tuning. Datasets: CoVoST 2 y EuroparlST. La metodología completa y resultados están documentados en un paper de investigación complementario. Código modular con instalación pip editable y notebooks Jupyter para experimentación.
+technologies: [python, huggingface, pytorch, jupyter]
+tags: [class]
+slug: TA-Portuguesse-English-ST
+order: 65
+featured: false
