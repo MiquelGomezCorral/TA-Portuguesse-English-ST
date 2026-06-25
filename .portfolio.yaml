@@ -1,6 +1,6 @@
 title:
-  en: Portuguese-English Speech Translation (Whisper + NLLB + mT5)
-  es: Traducción de Voz Portugués-Inglés (Whisper + NLLB + mT5)
+  en: Portuguese-English Speech Translation
+  es: Traducción de Voz Portugués-Inglés
 finished: finished
 descriptionShort:
   en: Speech translation project exploring cascade (ASR → MT) and end-to-end approaches for Portuguese→English. Uses Whisper for transcription, NLLB and mT5 for translation. Trained on CoVoST 2 and EuroparlST datasets. Includes a research paper.
@@ -18,4 +18,5 @@ keywords:
 slug: TA-Portuguesse-English-ST
 order: 65
 featured: false
+
 
