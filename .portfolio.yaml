@@ -12,11 +12,15 @@ descriptionLong:
     Proyecto del máster sobre traducción de voz entre portugués e inglés. Implementa y compara dos paradigmas: (1) Enfoque cascade — Whisper para reconocimiento de voz seguido de traducción automática neuronal (NLLB, mT5), (2) Traducción de voz end-to-end con fine-tuning. Explora diferentes estrategias de decodificación (beam search, temperature, nucleus sampling), modelos de traducción (NLLB-200, mT5-large), y configuraciones de fine-tuning. Datasets: CoVoST 2 y EuroparlST. La metodología completa y resultados están documentados en un paper de investigación complementario. Código modular con instalación pip editable y notebooks Jupyter para experimentación.
 technologies: [python, huggingface, pytorch, jupyter]
 tags: [class]
+date:
+  en: Dec 2025
+  es: Dic 2025
 keywords:
   en: [speech translation, Portuguese English, Whisper, NLLB, mT5, cascade translation, end-to-end ST, CoVoST, EuroparlST, automatic translation, audio translation, decoding strategies]
   es: [traducción de voz, portugués inglés, Whisper, NLLB, mT5, traducción en cascada, ST end-to-end, CoVoST, EuroparlST, traducción automática, traducción de audio, estrategias de decodificación]
 slug: TA-Portuguesse-English-ST
 order: 65
 featured: false
+
 
 
